@@ -13,9 +13,9 @@ void map_sum(int *v, int size, int a){
 	for (i=0;i<size;i++){
 		v[i] += a;
 	}
+}
 
 int get(int *v, int p){
 	int b = v[p];
 	return b; 
-
 }
