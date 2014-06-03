@@ -6,3 +6,8 @@ int sum_up (int *v, int size){
 	}
 	return total;
 }
+
+int get(int *v, int p){
+	int b = v[p];
+	return b; 
+}
